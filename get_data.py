@@ -55,7 +55,7 @@ def main():
         model = YOLO("yolo11n.pt")
         
         all_detections = []
-        interval = 10 # секунд между анализами
+        interval = 10 
         
         cap = cv2.VideoCapture(stream_url)
         if not cap.isOpened():
@@ -92,7 +92,6 @@ def main():
             else:
                 print("No objects detected")
             
-            # Ждём N секунд перед следующим анализом
             time.sleep(interval)
         
         print(f"\nTotal detections: {len(all_detections)}")
