@@ -12,6 +12,7 @@ webdriver-manager = "^4.0.2"
 selenium = "^4.24.0"
 blinker = "<1.8"
 setuptools = "^80.9.0"
+ultralytics = "^8.3.246"
 
 [build-system]
 requires = ["poetry-core"]

@@ -34,7 +34,6 @@ class VideoTokenClient:
                 if match:
                     self.token = match.group(1)
                     break
-        return self.token
 
     def close(self) -> None:
         try:
