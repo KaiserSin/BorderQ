@@ -55,7 +55,7 @@ def main():
         model = YOLO("yolo11n.pt")
         
         all_detections = []
-        interval = 10 
+        interval = 60 
         
         cap = cv2.VideoCapture(stream_url)
         if not cap.isOpened():
