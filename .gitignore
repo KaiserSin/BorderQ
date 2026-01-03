@@ -1,1 +1,9 @@
 *.pt
+
+# Dataset
+dataset/
+resources/
+
+# Training runs
+runs/
+resources
